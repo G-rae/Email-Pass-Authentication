@@ -1,0 +1,77 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #36393f; /* Discord background color */
+  height: 100vh;
+}
+
+.header {
+  color: #e0e6e6;
+  padding: 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #2f3136; /* Discord card background color */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.button {
+  padding: 12px 45px; /* Adjust padding for smaller button */
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #7289da; /* Discord button background color */
+  color: #ffffff;
+  font-size: 16px; /* Decrease font size for smaller button */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease;
+  
+}
+
+.button:hover {
+  background-color: #667bc9; /* Darker shade of Discord button color on hover */
+}
+
+.message {
+  text-align: right;
+  font-size: 16px;
+  color: #dff3db;
+  margin-top: 5px;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 25px;
+  background-color: #40444b; /* Discord input background color */
+  color: #ffffff;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.logo {
+  width: 150px;
+  height: 130px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%; 
+}
